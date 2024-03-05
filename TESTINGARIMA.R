@@ -11,7 +11,7 @@ rm(df1, df2, df3)
 # Remove all objects
 rm(list = ls())
 
-# creating the timeseries
+# creating the timeseries ((INSTEAD OF JPM TYPE THE NAME OF YOUR DATASET))
 JPMts <- ts(JPM$Adj.Close, start = c(2016, 06), frequency = 12)
 
 # creating training and testing data sets
